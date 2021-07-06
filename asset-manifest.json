@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Tottzi/reduxtodo/static/css/main.71c4b666.chunk.css",
-    "main.js": "/Tottzi/reduxtodo/static/js/main.fddc99e9.chunk.js",
-    "main.js.map": "/Tottzi/reduxtodo/static/js/main.fddc99e9.chunk.js.map",
-    "runtime-main.js": "/Tottzi/reduxtodo/static/js/runtime-main.4e2e7fe6.js",
-    "runtime-main.js.map": "/Tottzi/reduxtodo/static/js/runtime-main.4e2e7fe6.js.map",
-    "static/js/2.e1c351fc.chunk.js": "/Tottzi/reduxtodo/static/js/2.e1c351fc.chunk.js",
-    "static/js/2.e1c351fc.chunk.js.map": "/Tottzi/reduxtodo/static/js/2.e1c351fc.chunk.js.map",
-    "static/js/3.ecae83b6.chunk.js": "/Tottzi/reduxtodo/static/js/3.ecae83b6.chunk.js",
-    "static/js/3.ecae83b6.chunk.js.map": "/Tottzi/reduxtodo/static/js/3.ecae83b6.chunk.js.map",
-    "index.html": "/Tottzi/reduxtodo/index.html",
-    "static/css/main.71c4b666.chunk.css.map": "/Tottzi/reduxtodo/static/css/main.71c4b666.chunk.css.map",
-    "static/js/2.e1c351fc.chunk.js.LICENSE.txt": "/Tottzi/reduxtodo/static/js/2.e1c351fc.chunk.js.LICENSE.txt"
+    "main.css": "/reduxtodo/static/css/main.71c4b666.chunk.css",
+    "main.js": "/reduxtodo/static/js/main.fddc99e9.chunk.js",
+    "main.js.map": "/reduxtodo/static/js/main.fddc99e9.chunk.js.map",
+    "runtime-main.js": "/reduxtodo/static/js/runtime-main.d2a10a67.js",
+    "runtime-main.js.map": "/reduxtodo/static/js/runtime-main.d2a10a67.js.map",
+    "static/js/2.e1c351fc.chunk.js": "/reduxtodo/static/js/2.e1c351fc.chunk.js",
+    "static/js/2.e1c351fc.chunk.js.map": "/reduxtodo/static/js/2.e1c351fc.chunk.js.map",
+    "static/js/3.ecae83b6.chunk.js": "/reduxtodo/static/js/3.ecae83b6.chunk.js",
+    "static/js/3.ecae83b6.chunk.js.map": "/reduxtodo/static/js/3.ecae83b6.chunk.js.map",
+    "index.html": "/reduxtodo/index.html",
+    "static/css/main.71c4b666.chunk.css.map": "/reduxtodo/static/css/main.71c4b666.chunk.css.map",
+    "static/js/2.e1c351fc.chunk.js.LICENSE.txt": "/reduxtodo/static/js/2.e1c351fc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4e2e7fe6.js",
+    "static/js/runtime-main.d2a10a67.js",
     "static/js/2.e1c351fc.chunk.js",
     "static/css/main.71c4b666.chunk.css",
     "static/js/main.fddc99e9.chunk.js"
