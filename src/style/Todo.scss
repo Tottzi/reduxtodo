@@ -1,0 +1,80 @@
+.todo {
+  width: 95%;
+  max-width: 480px;
+  background-color: transparent;
+  transition: linear 0.3s;
+  height: fit-content;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  &:hover{
+    width: 96%;
+    background-color: whitesmoke;
+  }
+  &--done{
+    background-color: rgba(128, 128, 128, 0.361);
+    box-shadow: inset 5px 2px 5px 2px rgba(0,0,0,0.34);
+    transition: linear 0.3s;
+    border: none;
+    order: +1;
+    &:hover{
+      width: 95%;
+      background-color: rgba(128, 128, 128, 0.183);
+    }
+  }
+
+}
+
+.todo, article, .todo__btn{
+  flex-basis: 90%;
+}
+
+.todo__article {
+  flex-shrink: 1;
+  border-left: solid 10px green;
+  transition: linear 0.05s;
+  &--done{
+    border-left: solid 0 green;
+    transition: linear 0.05s;
+  }
+}
+
+.todo__article__text {
+  margin: 0 0.5rem 0.5rem;
+  &__title {
+    text-decoration: underline;
+    margin: 0.5rem 0.5rem 0;
+  }
+  &--done{
+    text-decoration: line-through;
+    color: grey;
+  }
+}
+
+.todo__btn {
+  flex-shrink: 30;
+  opacity: 0;
+  transition: linear 0.05s;
+  border: none;
+  cursor: pointer;
+  &--done {
+    width: 0px;
+    opacity: 1;
+    flex-shrink: 20;
+    transition: linear 0.3s;
+    background-color: red;
+    color: white;
+    &:hover{
+      flex-shrink: 10;
+    }
+  }
+}
+
+.todo__btn__icon{
+  display: none;
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+  &--done{
+    display: inline;
+  }
+}

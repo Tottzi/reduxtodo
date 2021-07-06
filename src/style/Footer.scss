@@ -1,0 +1,17 @@
+.footer {
+  margin-top: 2rem;
+  font-size: 2rem;
+  transition: 0.02s linear;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  &__link:visited{
+    color: black;
+  }
+  &__icon{
+    cursor: pointer;
+    &:hover{
+      font-size: 2.1rem;
+    }
+  }
+}

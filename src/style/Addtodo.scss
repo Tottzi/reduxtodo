@@ -1,0 +1,52 @@
+.form_add {
+  padding: 1rem;
+  box-shadow: 5px 2px 5px 2px rgba(0,0,0,0.34);
+  background-image: url(https://miro.medium.com/max/1838/1*If-kjw4iV2Z7WHGOuYpfiA.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.form_add__input {
+padding: 2rem 0.5 1rem;
+margin-left: 1rem;
+    &__title{
+      border: none;
+      border-bottom: 1px solid white;
+      color: rgb(122, 118, 118);
+      background-color: transparent;
+      margin-left: 2rem;
+    }
+    &__desc{
+      border: none;
+      border-bottom: 1px solid white;
+      color: white;
+      background-color: transparent;
+      margin-left: 2rem;
+    }
+}
+
+.form_add__btn{
+  border:none;
+  background: transparent;
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+  margin: 2rem 1rem 1rem 1.5rem;
+  padding: 0;
+  color: black;
+  &__icon{
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: black;
+    transition: 0.2s linear;
+    &:hover{
+      color: green;
+    }
+  }
+}
+
+.form_add__label {
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
+  color: black;
+  text-decoration: underline;
+}
