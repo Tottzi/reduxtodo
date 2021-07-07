@@ -12,15 +12,15 @@ margin-left: 1rem;
     &__title{
       border: none;
       border-bottom: 1px solid white;
-      color: rgb(122, 118, 118);
-      background-color: transparent;
+      color: white(122, 118, 118);
+      background-color: white;
       margin-left: 2rem;
     }
     &__desc{
       border: none;
       border-bottom: 1px solid white;
       color: white;
-      background-color: transparent;
+      background-color: white;
       margin-left: 2rem;
     }
 }
